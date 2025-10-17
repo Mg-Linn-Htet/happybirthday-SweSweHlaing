@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Swe Swe Hlaing!</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="welcome">Happy Birthday, Swe Swe Hlaing!</h1>
+    <div class="image-container">
+      <img src="swe-swe-placeholder.jpg" alt="Swe Swe Hlaing" class="profile-pic" />
+    </div>
+
+    <div class="interactive-elements">
+      <button id="cakeBtn">🎂 Blow Candles</button>
+      <button id="heartBtn">💖 Send Love</button>
+    </div>
+
+    <div class="love-note">
+      <h2>Your Love Note</h2>
+      <textarea placeholder="Write your message here..."></textarea>
+    </div>
+
+    <audio id="birthdaySong" src="happy-birthday.mp3" autoplay loop></audio>
+  </div>
+
+  <canvas id="confettiCanvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
